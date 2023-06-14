@@ -7,6 +7,9 @@ body {
   padding: 20px 20px 20px 20px;
   width: 600px;
   margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  position: relative;
 }
 
 .todo-list h1 {
@@ -19,14 +22,8 @@ body {
   border-radius: 0%;
 }
 
-li.ui-state-default {
-  background-color: #ffffff;
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-li.ui-state-default:last-child {
-  border-bottom: none;
+.list-group-item .list-group-flush {
+  padding: 8px 0px;
 }
 
 .todo-footer {
